@@ -1,4 +1,0 @@
-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
-
-
-This is the Openrouter AI API key for my account, please use this while running the project
