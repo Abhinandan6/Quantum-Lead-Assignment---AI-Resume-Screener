@@ -4,7 +4,7 @@ import PyPDF2
 import json
 import time
 
-# --- 1. CONFIGURATION & STYLING ---
+# 1. CONFIGURATION & STYLING 
 st.set_page_config(page_title="AI Resume Screener", layout="wide")
 
 # Custom CSS to make it look cleaner
@@ -156,4 +156,5 @@ if analyze_btn:
                 
                 # JSON Output for n8n
                 #with st.expander("🔌 View JSON Payload (For n8n Automation)"):
+
                     #st.code(json.dumps(result, indent=2), language='json')
